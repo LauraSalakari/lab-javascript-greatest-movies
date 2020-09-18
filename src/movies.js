@@ -134,6 +134,9 @@ function orderByYear(arr) {
 
         return movies;
     }
+    else{
+        return null;
+    }
 }
 
 // Iteration 6: Alphabetic Order - Order by title and print the first 20 titles
